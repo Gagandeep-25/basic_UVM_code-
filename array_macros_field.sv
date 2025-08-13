@@ -51,7 +51,7 @@ class array extends uvm_object;
   
 endclass
  
-////////////////////////////////////////////
+
  
 module tb;
   array a;
