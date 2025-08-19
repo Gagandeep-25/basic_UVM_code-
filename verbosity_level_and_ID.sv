@@ -25,7 +25,7 @@ endmodule
 
 /*
 
-in the above code , since we change the verosity of DRV1, only they is visible 
+in the above code , since we change the verbosity of DRV1, only they is visible 
 when we call the run task 
 
 */
