@@ -4,16 +4,10 @@ import uvm_pkg::*;
  
 class array extends uvm_object;
   
-  ////////static array
+  
   int arr1[3] = {1,2,3};
-  
-  ///////Dynamic array
   int arr2[];
-  
-  ///////Queue
   int arr3[$];
-  
-  ////////Associative array
   int arr4[int];
   
   
@@ -31,17 +25,17 @@ class array extends uvm_object;
   
   task run();
     
-    ///////////////////Dynamic array value update
+
     arr2 = new[3];
     arr2[0] = 2;
     arr2[1] = 2;
     arr2[2] = 2;
     
-    ///////////////////Queue
+   
     arr3.push_front(3);
     arr3.push_front(3);
     
-    ////////////////////Associative arrays
+
     arr4[1] = 4;
     arr4[2] = 4;
     arr4[3] = 4;
